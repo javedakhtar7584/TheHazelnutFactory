@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The HazelNut Factory</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Background color */
+        }
+         
+        body{
+            background-image: url("Misty\ Hills.jpeg");
+            background-size: cover;
+        }
+        header, footer {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+         header{
+            background-image: url("beck2.jpeg");
+         }
+         footer{
+            background-image: url("plane.jpg");
+         }
+         body {
+           
+            animation: coolSlideIn 2s ease-in-out;
+        }
+
+        @keyframes coolSlideIn {
+            0% {
+                transform: translateX(-100%) scale(0.5) rotate(-10deg);
+                opacity: 0;
+            }
+            60% {
+                transform: translateX(20px) scale(1.1) rotate(10deg);
+                opacity: 1;
+            }
+            80% {
+                transform: translateX(-10px) scale(1.05) rotate(-5deg);
+            }
+            100% {
+                transform: translateX(0) scale(1) rotate(0);
+            }
+        }
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+
+        #last {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #last img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #last p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+        <script src="thf.js"></script>
+    <header>
+        <h1>The HazelNut Factory</h1>
+        <p>"Step into our cozy corner of culinary delights! 🍽️ Your taste adventure starts here!"</p>
+    </header>
+    <main>
+        <section>
+            <a href="our-story.html" class="button">Our Story</a>
+            <p>Welcome to The HazelNut Bakery, where we bring you the finest baked goods made with love and passion. Our journey began with a simple idea: to create delicious treats that bring joy to every bite. Explore our range of artisanal sweets, savouries, and freshly baked cookies that will leave you craving for more.</p>
+        </section>
+       
+        <section>
+            <a href="our-menu.html" class="button">Our Menu</a>
+            <p>Explore our menu to discover a wide selection of treats to satisfy your cravings. Whether you're in the mood for something sweet or savoury, we have something for everyone. Don't forget to try our speciality coffees and teas to complete your bakery experience.</p>
+        </section>
+        <section>
+            <a href="order-online.html" class="button">Order Online</a>
+            <p>Can't make it to our bakery? No problem! Order your favourite treats online and have them delivered to your doorstep. Whether it's a birthday cake or a box of cookies, we'll make sure your order is freshly baked and delivered with care.</p>
+        </section>
+       
+    </main>
+    <footer>
+        <div id="last">
+            <img src="footer_photo.png" alt="The HazelNut Factory Logo" height="100px">
+            <p>+91-7380622326</p>
+            <p>Gmail: <a href="mailto:javedakhtar7584@gmail.com">javedakhtar7584@gmail.com</a></p>
+            <p>Address: Integral University Dasauli-226026</p>
+        </div>
+    </footer>
+</body>
+</html>

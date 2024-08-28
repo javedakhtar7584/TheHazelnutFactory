@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Haven Cake Factory Menu</title>
+    <style>
+       body {    
+           background-color: antiquewhite;
+           font-family: Arial, Helvetica, sans-serif;
+           color: #333;
+           margin: 0;
+           padding: 0;
+       }
+
+       body{
+         background-color:pink;
+       }
+
+       .container {
+           width: 80%;
+           margin: auto;
+           overflow: hidden;
+       }
+
+       h1, h2 {
+           text-align: center;
+           color: #333;
+       }
+
+       .menu-section {
+           margin: 40px 0;
+       }
+
+       .menu-section h2 {
+           font-size: 24px;
+           border-bottom: 2px solid #333;
+           display: inline-block;
+           margin-bottom: 10px;
+       }
+
+       .menu-item {
+           margin: 20px 0;
+       }
+
+       .menu-item h3 {
+           font-size: 18px;
+           margin: 0;
+           padding: 0;
+       }
+
+       .menu-item p {
+           margin: 5px 0;
+           color: #555;
+       }
+
+       .price {
+           font-weight: bold;
+           float: right;
+       }
+
+       .clear {
+           clear: both;
+       }
+
+       .menu-item img {
+            height: 220px;
+            width: 200px;
+            margin-right: 20px;
+            animation: coolSlideIn 2s ease-in-out;
+        }
+
+        @keyframes coolSlideIn {
+            0% {
+                transform: translateX(-100%) scale(0.5) rotate(-10deg);
+                opacity: 0;
+            }
+            60% {
+                transform: translateX(20px) scale(1.1) rotate(10deg);
+                opacity: 1;
+            }
+            80% {
+                transform: translateX(-10px) scale(1.05) rotate(-5deg);
+            }
+            100% {
+                transform: translateX(0) scale(1) rotate(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sweet Haven Cake Factory Menu</h1>
+        
+        <div class="menu-section">
+            <h2>Signature Cakes</h2>
+            <div class="menu-item">
+                <h3>Lavender Dream Cake <span class="price">$25.00</span></h3>
+                    <img src="lavender_cake.jpeg" height="220px" width="200px">
+                <p>A delicate lavender-infused cake with a hint of lemon zest, topped with a lavender cream frosting.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Chocolate Indulgence Cake <span class="price">$30.00</span></h3>
+                <img src="chocolate_cake.jpeg" height="220px" width="200px">
+                <p>Rich and moist chocolate cake layered with dark chocolate ganache and chocolate buttercream.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Classic Vanilla Bean Cake <span class="price">$20.00</span></h3>
+                <img src="vanilla_calre.jpg" height="220px" width="200px">
+                <p>Traditional vanilla cake made with real vanilla beans, topped with a creamy vanilla buttercream.</p>
+            </div>
+        </div>
+
+        <div class="menu-section">
+            <h2>Cookies and Biscuits</h2>
+            <div class="menu-item">
+                <h3>Chocolate Chip Cookies <span class="price">$15.00</span></h3>
+                <img src="Crispy and Chewy Chocolate Chip Cookies.jpeg" height="220px" width="200px">
+                <img src="chocolate_chip_cookies.jpg" alt="Chocolate Chip Cookies">
+                <p>Classic chocolate chip cookies with crispy edges and a chewy center, loaded with chocolate chips.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Oatmeal Raisin Cookies <span class="price">$12.00</span></h3>
+                <img src="Oatmeal Raisin Cookies.jpeg" height="220px" width="200px">
+                <img src="oatmeal_raisin_cookies.jpg" alt="Oatmeal Raisin Cookies">
+                <p>Hearty oatmeal cookies packed with juicy raisins and a hint of cinnamon.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Shortbread Biscuits <span class="price">$10.00</span></h3>
+                <img src="Buttery Sweet Vegan Shortbread Cookies - Two Spoons.jpeg" height="220px" width="200px">
+                <img src="shortbread_biscuits.jpg" alt="Shortbread Biscuits">
+                <p>Buttery and crumbly shortbread biscuits, perfect with a cup of tea or coffee.</p>
+            </div>
+
+            <div class="menu-section">
+                <h2>Pizzas and Burgers</h2>
+                <div class="menu-item">
+                    <h3>Margherita Pizza <span class="price">$20.00</span></h3>
+                    <img src="Gluten Free Margherita Pizza (the most foolproof gluten-free pizza dough!).jpeg" height="220px" width="200px">
+                    <img src="margherita_pizza.jpg" alt="Margherita Pizza">
+                    <p>Classic Margherita pizza with fresh tomatoes, mozzarella cheese, and basil.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Pepperoni Pizza <span class="price">$22.00</span></h3>
+                    <img src="Pizzetta.jpeg" height="220px" width="200px">
+                    <img src="pepperoni_pizza.jpg" alt="Pepperoni Pizza">
+                    <p>Delicious pizza topped with pepperoni slices and mozzarella cheese.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Cheeseburger <span class="price">$18.00</span></h3>
+                    <img src="The Ultimate Double Cheeseburger.jpeg" height="220px" width="200px">
+                    <img src="cheeseburger.jpg" alt="Cheeseburger">
+                    <p>Juicy beef patty topped with cheddar cheese, lettuce, tomato, and pickles.</p>
+                </div>
+                <div class="menu-item">
+                    <h3>Veggie Burger <span class="price">$16.00</span></h3>
+                    <img src="Copycat In-N-Out Vegan Burger with Spread.jpeg" height="220px" width="200px">
+                    <img src="veggie_burger.jpg" alt="Veggie Burger">
+                    <p>A flavorful veggie patty topped with avocado, lettuce, and tomato.</p>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>

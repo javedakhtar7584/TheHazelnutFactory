@@ -1,0 +1,72 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 1em;
+    color: #fff;
+    background-color: #8B4513; /* Chocolate color */
+    border: solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #A0522D; /* Sienna color */
+}
+
+/* Styling for specific elements */
+header hr {
+    border: 2;
+    height: 1px;
+    background: #8B4513;
+    margin: 20px 0;
+}
+
+/*body{
+    background-image: url("cake_photo.jpg");
+    background-size: auto;
+}
+
+header{
+    display: inline-block;
+    background-image: url("cake_photo.jpg");
+   background-size: auto;
+}
+
+footer{
+    background-image: url("thf_photo.jpg");
+    background-size: cover;
+}*/
+
+body{
+  background-color: antiquewhite;
+}
+
+
+
+
+@media (max-width: 768px) {
+    header, main, footer {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2, section h2 {
+        font-size: 1.5em;
+    }
+
+    section p, footer p {
+        font-size: 0.9em;
+    }
+
+    main div img {
+        height: 300px;
+    }
+}
